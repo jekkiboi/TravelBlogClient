@@ -9,7 +9,7 @@ class IndexCarousel extends React.Component {
   state = {redirect: null}
 
   // handleDelete = (id) => {
-  //   axios.delete(`http://localhost:4000/api/cities/${id}`)
+  //   axios.delete(`${process.env.REACT_APP_SERVER_URL}/api/cities/${id}`)
   //   .then(() => {
   //    this.props.deleteCity(id)
   //   })
